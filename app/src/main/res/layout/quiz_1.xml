@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E5216"
+    tools:context=".QuizActivity">
+
+
+    <!-- Name of the user. -->
+
+    <!-- Question one. -->
+
+    <!-- Answers for question one. -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="291dp"
+        android:layout_height="326dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162"
+        app:srcCompat="@drawable/rectangle_fragment_ask" />
+
+    <RadioGroup
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question2_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q2_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/question2_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q2_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question2_answer1"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q2_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/question10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question10_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q10_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question10_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q10_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/question10_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q10_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/question9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/question9_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q9_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question9_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q9_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question9_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q9_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question1_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q1_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/question1_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q1_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question1_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q1_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question3_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q3_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/question3_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q3_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question3_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q3_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <!-- Question four. -->
+
+    <!-- Answers for question one. -->
+
+    <!-- Question five. -->
+    <!-- Answers for question five. -->
+    <RadioGroup
+        android:id="@+id/question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question4_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q4_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/question4_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q4_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question4_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q4_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/question5_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q5_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question5_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q5_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question5_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q5_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!-- Answers for question five. -->
+    <RadioGroup
+        android:id="@+id/question6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/question6_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q6_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question6_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q6_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question6_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q6_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!-- Answers for question five. -->
+    <RadioGroup
+        android:id="@+id/question7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question7_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q7_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question7_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q7_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question7_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q7_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!-- Answers for question five. -->
+    <RadioGroup
+        android:id="@+id/question8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/question8_right_answer"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q8_answer_a"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/question8_answer2"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q8_answer_b"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question8_answer3"
+            style="@style/answers"
+            android:buttonTint="@color/black"
+            android:text="@string/q8_answer_c"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="124dp"
+        android:text='What is the past participle of "go"?'
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <ImageView
+        android:id="@+id/exitButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/nextButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        app:srcCompat="@drawable/chevron_right" />
+
+    <!-- Answers for question five. -->
+
+    <!-- Answers for question five. -->
+</androidx.constraintlayout.widget.ConstraintLayout>
+

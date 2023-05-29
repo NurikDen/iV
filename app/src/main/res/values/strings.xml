@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">irregularVerbs</string>
+    <string name="activity_name">Result</string>
+
+    <!-- Hint -->
+    <string name="name">Type your name</string>
+
+    <!-- Question one -->
+    <string name="question_one">What is the past tense of "eat"?</string>
+    <!-- Answers of Question one -->
+    <string name="q1_answer_a">ate</string>
+    <string name="q1_answer_b">eated</string>
+    <string name="q1_answer_c">eaten</string>
+
+    <!-- Question two -->
+    <string name="question_two">What is the past participle of "go"?</string>
+    <!-- Answers of Question two -->
+    <string name="q2_answer_a">gone</string>
+    <string name="q2_answer_b">went</string>
+    <string name="q2_answer_c">goen</string>
+
+    <!-- Question three -->
+    <string name="question_three">What is the past participle of "sing"?</string>
+    <!-- Answers of Question two -->
+    <string name="q3_answer_a">sung</string>
+    <string name="q3_answer_b">sang</string>
+    <string name="q3_answer_c">singing</string>
+
+    <!-- Question four -->
+    <string name="question_four">What is the past tense of "swim"?</string>
+    <!-- Answers of Question four -->
+    <string name="q4_answer_a">swam</string>
+    <string name="q4_answer_b">swimmed</string>
+    <string name="q4_answer_c">swum</string>
+
+    <!-- Question five -->
+    <string name="question_five">What is the past participle of "drink"?</string>
+    <!-- Answers of Question five -->
+    <string name="q5_answer_a">drunk</string>
+    <string name="q5_answer_b">drank</string>
+    <string name="q5_answer_c">drinked</string>
+
+    <string name="question_six">What is the past tense of "be"?</string>
+    <!-- Answers of Question five -->
+    <string name="q6_answer_a">was,were</string>
+    <string name="q6_answer_b">am</string>
+    <string name="q6_answer_c">been</string>
+
+    <string name="question_seven">What is the past tense of "run"?</string>
+    <!-- Answers of Question five -->
+    <string name="q7_answer_a">ran</string>
+    <string name="q7_answer_b">run</string>
+    <string name="q7_answer_c">runned</string>
+
+    <string name="question_eight">What is the past participle of "write"?</string>
+    <!-- Answers of Question five -->
+    <string name="q8_answer_a">written</string>
+    <string name="q8_answer_b">write</string>
+    <string name="q8_answer_c">wrote</string>
+
+    <string name="question_nine">What is the past participle of "read"?</string>
+    <!-- Answers of Question five -->
+    <string name="q9_answer_a">read</string>
+    <string name="q9_answer_b">readen</string>
+    <string name="q9_answer_c">red</string>
+
+    <string name="question_ten">What is the past tense of "see"?</string>
+    <!-- Answers of Question five -->
+    <string name="q10_answer_a">saw</string>
+    <string name="q10_answer_b">seem</string>
+    <string name="q10_answer_c">seen</string>
+
+    <!-- submit answers -->
+    <string name="submit">Submit</string>
+    <!-- percentage of the result -->
+    <string name="percentage">%</string>
+
+    <!-- Description of the pictures -->
+    <string name="description">A boy is playing football.</string>
+    <!-- ImageView in the ResultActivity -->
+    <string name="feelingsTowardsResult">An image for describing the feelings towards the result.</string>
+</resources>

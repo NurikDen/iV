@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:foregroundGravity="fill"
+    android:foregroundTint="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/fragment_ask"
+        android:layout_width="302dp"
+        android:layout_height="191dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809"
+        app:srcCompat="@drawable/rectangle_fragment_answer" />
+
+    <ImageView
+        android:id="@+id/fragment_answer"
+        android:layout_width="242dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245"
+        app:srcCompat="@drawable/rectangle_fragment_ask" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="#08510B"
+        android:ems="10"
+        android:hint="Input verb"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#1B7C1F"
+        android:textColorHint="#1B7C1F"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_answer"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_answer"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/fragment_answer"
+        app:layout_constraintTop_toTopOf="@+id/fragment_answer"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/three_forms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_ask"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_ask"
+        app:layout_constraintStart_toStartOf="@+id/fragment_ask"
+        app:layout_constraintTop_toTopOf="@+id/fragment_ask"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_ask"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_ask"
+        app:layout_constraintStart_toStartOf="@+id/fragment_ask"
+        app:layout_constraintTop_toTopOf="@+id/fragment_ask"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <Button
+        android:id="@+id/btnspeak"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="164dp"
+        android:foreground="@drawable/volume_button"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_answer"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_answer"
+        app:layout_constraintStart_toStartOf="@+id/fragment_answer"
+        app:layout_constraintTop_toTopOf="@+id/fragment_answer"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/volume_button" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="#FF0000"
+        android:foreground="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_answer"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_answer"
+        app:layout_constraintStart_toStartOf="@+id/fragment_answer"
+        app:layout_constraintTop_toTopOf="@+id/fragment_answer"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <ImageView
+        android:id="@+id/quiz"
+        android:layout_width="142dp"
+        android:layout_height="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/quiz_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
